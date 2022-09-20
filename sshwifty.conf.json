@@ -55,10 +55,10 @@
     {
       "Title": "なおちゃんねっと",
       "Type": "SSH",
-      "Host": "ktbbs.hanzou.jp:11111",
+      "Host": "www.sakura-can.net:22",
       "Meta": {
         "Encoding": "shift-jis",
-        "User": "bbs",
+        "User": "nao",
         "Password": "bbs",
         "Authentication": "Password"
       }
