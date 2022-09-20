@@ -1,0 +1,76 @@
+{
+  "HostName": "サーバ名",
+  "SharedKey": "パスワード",
+  "DialTimeout": 5,
+  "Socks5": "",
+  "Socks5User": "",
+  "Socks5Password": "",
+  "Servers": [
+    {
+      "ListenInterface": "0.0.0.0",
+      "ListenPort": 8182,
+      "InitialTimeout": 3,
+      "ReadTimeout": 60,
+      "WriteTimeout": 60,
+      "HeartbeatTimeout": 20,
+      "ReadDelay": 10,
+      "WriteDelay": 10,
+      "TLSCertificateFile": "",
+      "TLSCertificateKeyFile": ""
+    }
+  ],
+  "Presets": [
+    {
+      "Title": "はんぞーBBS (Telnet)",
+      "Type": "Telnet",
+      "Host": "ktbbs.hanzou.jp:11123",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "はんぞーBBS (SSH)",
+      "Type": "SSH",
+      "Host": "ktbbs.hanzou.jp:11111",
+      "Meta": {
+        "Encoding": "shift-jis",
+        "User": "bbs",
+        "Password": "bbs",
+        "Authentication": "Password"
+      }
+    },
+    {
+      "Title": "西和ネット",
+      "Type": "Telnet",
+      "Host": "jp3tlc.com:23",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "ういるすねっと",
+      "Type": "Telnet",
+      "Host": "211.133.151.119:23",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "ＷhiteＷing",
+      "Type": "Telnet",
+      "Host": "bbs.whitewing.gr.jp:23",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "コミュニテックス",
+      "Type": "Telnet",
+      "Host": "www.maruo.co.jp:23",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    }
+  ],
+  "OnlyAllowPresetRemotes": true
+}
