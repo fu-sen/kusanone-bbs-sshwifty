@@ -33,7 +33,7 @@ Docker を使用できる PaaS で運用する事ができます。\
 
 - [Google Cloud Run](https://cloud.google.com/run?hl=ja)
 - [Fly (fly.io)](https://fly.io/)
-- [Railway (wailway.app)](https://railway.app/)
+- [Railway (railway.app)](https://railway.app/)
 
 VPS などのサーバへインストールするサービスは次があります。
 
