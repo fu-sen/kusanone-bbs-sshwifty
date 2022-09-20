@@ -78,6 +78,14 @@ Sshwifty Docker のデフォルトリッスンポート番号は 8182 です。\
 ユーザー名・パスワードは ssh の接続で有効です。\
 telnet のコマンド操作は行えませんので、入力必須です。
 
+公開している `sshwifty.conf.json` は一覧に含まれた場所のみが接続できます。\
+個人で使用していて、一覧以外のところへも接続してみたい場合、\
+次の項目を `false` に変更して下さい。
+
+```
+  "OnlyAllowPresetRemotes": true
+```
+
 ### captain-definition
 
 CapRover の構成ファイルです。 `Dockerfile` を参照するようにしています。\
