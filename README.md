@@ -1,4 +1,4 @@
-## Telnet・SSH 接続 草の根 BBS に対応した Sshwifty Docker
+## Telnet・SSH 接続可能な 草の根 BBS に対応した Sshwifty (Docker)
 
 Web ブラウザから 草の根 BBS へ接続できる環境を構築しましょう。
 
@@ -111,7 +111,7 @@ Back Scace キー（Apple Keyboard では delete キー）は機能しません�
 
 ## BBS 別情報
 
-西和ネット は BBS 運用に支障がないように、海外からの接続をブロックしています。\
+[西和ネット](http://jp3tlc.com/com/coms.shtml) は BBS 運用に支障がないように、海外からの接続をブロックしています。\
 世界規模で提供されている VPS やインスタンス（VM）などを使用する場合、\
 他の BBS には接続できるのに、西和ネット はすぐに切断される場合があります。\
 その場合は シスオペ の ＪＰ３ＴＬＣ さんへ\
