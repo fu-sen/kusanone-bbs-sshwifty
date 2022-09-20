@@ -121,16 +121,14 @@ Back Scace キー（Apple Keyboard では delete キー）は機能しません�
 
 現在一覧登録している 草の根 BBS は次となります。
 
-|BBS 名                                         |Telnet|
-|-----------------------------------------------|------|
-|[はんぞーBBS](https://www.hanzou.jp/hanzoubbs/)|`ktbbs.hanzou.jp:11123`|
-|[西和ネット](http://jp3tlc.com/com/coms.shtml) |`jp3tlc.com`|
-|[ういるすねっと](http://mtbbs.i.pxc.jp/mtbbs/) |`211.133.151.119`|
-|[WhiteWing](http://www.whitewing.gr.jp/)       |`bbs.whitewing.gr.jp`|
-|[コミュニテックス](https://www.maruo.co.jp/)   |`www.maruo.co.jp`|
-
-[はんぞーBBS](https://www.hanzou.jp/hanzoubbs/) は SSH 接続も対応しています。\
-`ktbbs.hanzou.jp:11111` ユーザー名・パスワード `bbs` です。
+|BBS 名                                             |Telnet|
+|---------------------------------------------------|------|
+|[西和ネット](http://jp3tlc.com/com/coms.shtml)     |`jp3tlc.com`|
+|[ういるすねっと](http://mtbbs.i.pxc.jp/mtbbs/)     |`211.133.151.119`|
+|[なおちゃんねっと](https://www.sakura-can.net/nao/)|(SSH のみ・下参照)|
+|[WhiteWing](http://www.whitewing.gr.jp/)           |`bbs.whitewing.gr.jp`|
+|[コミュニテックス](https://www.maruo.co.jp/)       |`www.maruo.co.jp`|
+|[はんぞーBBS](https://www.hanzou.jp/hanzoubbs/)    |`ktbbs.hanzou.jp:11123`|
 
 [西和ネット](http://jp3tlc.com/com/coms.shtml) は BBS 運用に支障がないように、海外からの接続をブロックしています。\
 世界規模で提供されている VPS やインスタンス（VM）などを使用する場合、\
@@ -138,3 +136,8 @@ Back Scace キー（Apple Keyboard では delete キー）は機能しません�
 その場合は シスオペ の ＪＰ３ＴＬＣ さん（通称 ＴＬＣ さん）へ\
 接続しようとしている元の Web サービスとホスト名を連絡してみて下さい。
 
+[なおちゃんねっと](https://www.sakura-can.net/nao/) は SSH 接続のみ対応です。\
+`www.sakura-can.net` ユーザ名 `nao` パスワード `bbs`
+
+[はんぞーBBS](https://www.hanzou.jp/hanzoubbs/) は SSH 接続も対応しています。\
+`ktbbs.hanzou.jp:11111` ユーザー名 `bbs` パスワード `bbs`

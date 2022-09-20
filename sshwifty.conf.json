@@ -21,25 +21,6 @@
   ],
   "Presets": [
     {
-      "Title": "はんぞーBBS (Telnet)",
-      "Type": "Telnet",
-      "Host": "ktbbs.hanzou.jp:11123",
-      "Meta": {
-        "Encoding": "shift-jis"
-      }
-    },
-    {
-      "Title": "はんぞーBBS (SSH)",
-      "Type": "SSH",
-      "Host": "ktbbs.hanzou.jp:11111",
-      "Meta": {
-        "Encoding": "shift-jis",
-        "User": "bbs",
-        "Password": "bbs",
-        "Authentication": "Password"
-      }
-    },
-    {
       "Title": "西和ネット",
       "Type": "Telnet",
       "Host": "jp3tlc.com:23",
@@ -69,6 +50,36 @@
       "Host": "www.maruo.co.jp:23",
       "Meta": {
         "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "なおちゃんねっと",
+      "Type": "SSH",
+      "Host": "ktbbs.hanzou.jp:11111",
+      "Meta": {
+        "Encoding": "shift-jis",
+        "User": "bbs",
+        "Password": "bbs",
+        "Authentication": "Password"
+      }
+    },
+    {
+      "Title": "はんぞーBBS (Telnet)",
+      "Type": "Telnet",
+      "Host": "ktbbs.hanzou.jp:11123",
+      "Meta": {
+        "Encoding": "shift-jis"
+      }
+    },
+    {
+      "Title": "はんぞーBBS (SSH)",
+      "Type": "SSH",
+      "Host": "ktbbs.hanzou.jp:11111",
+      "Meta": {
+        "Encoding": "shift-jis",
+        "User": "bbs",
+        "Password": "bbs",
+        "Authentication": "Password"
       }
     }
   ],
