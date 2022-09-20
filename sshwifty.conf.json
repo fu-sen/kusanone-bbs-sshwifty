@@ -1,6 +1,6 @@
 {
-  "HostName": "サーバ名",
-  "SharedKey": "パスワード",
+  "HostName": "",
+  "SharedKey": "",
   "DialTimeout": 5,
   "Socks5": "",
   "Socks5User": "",
