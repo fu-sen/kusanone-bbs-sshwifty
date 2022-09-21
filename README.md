@@ -1,5 +1,7 @@
 ## Telnet・SSH 接続可能な 草の根 BBS に対応した Sshwifty (Docker)
 
+**Web ブラウザから現在も生きる パソコン通信 にアクセス！**
+
 Web ブラウザから 草の根 BBS へ接続できる環境を構築しましょう。
 
 ## Sshwifty とは？
@@ -17,9 +19,9 @@ Web 上で動作する SSH・Telnet クライアントです。
 Web ブラウザから素早く接続できる環境にしていたのですが、\
 訳あってサーバを閉鎖していました。
 
-Sshwifty のサンプルサーバも Heroku を使用していて、\
-無料提供終了により、サーバの引っ越しが行われていますが、\
-そもそも海外にあって速度が遅い問題があります。
+Sshwifty のサンプルサーバは Heroku を使用していて、\
+無料提供終了により、サーバの引っ越しが行われます。\
+しかし、そもそも海外にあって速度が遅い問題があります。
 
 Sshwifty は Docker イメージが公開されているので、\
 Docker を採用する Web サービスに設置して使用する事ができます。\
@@ -89,6 +91,9 @@ telnet のコマンド操作は行えませんので、入力必須です。
   "OnlyAllowPresetRemotes": true
 ```
 
+Docker の代わりに Ssshwifty のバリナリー・ソースからの場合でも\
+この `sshwifty.conf.json` をそのまま使用できます。
+
 ### captain-definition
 
 CapRover の構成ファイルです。 `Dockerfile` を参照するようにしています。\
@@ -133,11 +138,9 @@ Back Scace キー（Apple Keyboard では delete キー）は機能しません�
 |[コミュニテックス](https://www.maruo.co.jp/)       |`www.maruo.co.jp`|
 |[はんぞーBBS](https://www.hanzou.jp/hanzoubbs/)    |`ktbbs.hanzou.jp:11123`|
 
-[西和ネット](http://jp3tlc.com/com/coms.shtml) は BBS 運用に支障がないように、海外からの接続をブロックしています。\
+一部の BBS は運用に支障がないように、海外からの接続をブロックしています。\
 世界規模で提供されている VPS やインスタンス（VM）などを使用する場合、\
-他の BBS には接続できるのに、西和ネット はすぐに切断される場合があります。\
-その場合は シスオペ の ＪＰ３ＴＬＣ さん（通称 ＴＬＣ さん）へ\
-接続しようとしている元の Web サービスとホスト名を連絡してみて下さい。
+設定は正常でも、接続してすぐに切断される状態になる場合があります。
 
 [なおちゃんねっと](https://www.sakura-can.net/nao/) は SSH 接続のみ対応です。\
 `www.sakura-can.net` ユーザ名 `nao` パスワード `bbs`
