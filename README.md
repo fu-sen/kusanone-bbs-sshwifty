@@ -61,7 +61,7 @@ Web 参照するドメインを HostName に入れます。\
 `https://example.net.eu.org/` であれば `example.net.eu.org` です。\
 省略している場合は割り当てているすべてのドメインで参照できるようになります。
 
-パスワード `SharedKe` を入れると、参照時に入力を求められます。\
+パスワード `SharedKey` を入れると、参照時に入力を求められます。\
 個人使用やパスワードを知っている人限定にできます。\
 省略する場合は表示されないので、URL を知っていれば誰でも使用できます。
 
@@ -92,7 +92,19 @@ telnet のコマンド操作は行えませんので、入力必須です。
 ```
 
 Docker の代わりに Ssshwifty のバリナリー・ソースからの場合でも\
-この `sshwifty.conf.json` をそのまま使用できます。
+この `sshwifty.conf.json` をそのまま使用できます。\
+デフォルトでは次のどこかに入れて下さい。
+
+- /sshwifty.conf.json
+- /etc/sshwifty.conf.json 
+- ~/.config/sshwifty.conf.json
+
+公式の [README.md](https://github.com/nirui/sshwifty#configure) にもあるように、\
+環境変数 `SSHWIFTY_CONFIG` で `sshwifty.conf.json` の場所を指定する事もできます。
+
+```
+SSHWIFTY_CONFIG=./sshwifty.conf.json ./sshwifty
+```
 
 ### captain-definition
 
