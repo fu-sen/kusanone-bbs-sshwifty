@@ -29,14 +29,6 @@
       }
     },
     {
-      "Title": "ういるすねっと",
-      "Type": "Telnet",
-      "Host": "211.133.151.119:23",
-      "Meta": {
-        "Encoding": "shift-jis"
-      }
-    },
-    {
       "Title": "ＷhiteＷing",
       "Type": "Telnet",
       "Host": "bbs.whitewing.gr.jp:23",

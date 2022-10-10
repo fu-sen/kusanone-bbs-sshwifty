@@ -144,7 +144,6 @@ Back Scace キー（Apple Keyboard では delete キー）は機能しません�
 |BBS 名                                             |Telnet|
 |---------------------------------------------------|------|
 |[西和ネット](http://jp3tlc.com/com/coms.shtml)     |`jp3tlc.com`|
-|[ういるすねっと](http://mtbbs.i.pxc.jp/mtbbs/)     |`211.133.151.119`|
 |[なおちゃんねっと](https://www.sakura-can.net/nao/)|(SSH のみ・下参照)|
 |[WhiteWing](http://www.whitewing.gr.jp/)           |`bbs.whitewing.gr.jp`|
 |[コミュニテックス](https://www.maruo.co.jp/)       |`www.maruo.co.jp`|
